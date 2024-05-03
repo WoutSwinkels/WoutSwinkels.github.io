@@ -1,8 +1,8 @@
 ---
 title: Hello World
-author: cotes
+author: wout
 date: 2023-09-30 19:30:00 +0200
-categories: [Blogging, First post]
+categories: [Blogging]
 tags: [Hello World]
 ---
 
