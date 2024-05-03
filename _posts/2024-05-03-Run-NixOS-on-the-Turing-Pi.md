@@ -113,7 +113,7 @@ The minimal configuration that we will use is derived from [this](https://nix.de
 
 ```
 
-### <a name="SSH into NixOS"></a> SSH into NixOS
+### SSH into NixOS<a name="SSH into NixOS"></a>
 After saving your changes to the `configuration.nix` file, ensure that you unmount the filesystem and reboot the node. Then, you can perform a `nixos-rebuild switch`.
 ```console
 # tpi uart -n 1 set --cmd "sudo nixos-rebuild switch"
