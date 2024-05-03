@@ -74,7 +74,7 @@ services.openssh = {
 };
 users.users.root.openssh.authorizedKeys.keys = ["public key goes here"];
 ```
-The additional settings configure the host name to 'tp-node1', enable SSH, change the SSH port to 43567, disable password authentication, and set a public key for the root user. This configuration allows us to log in as root using an SSH key. It's a recommended practice to avoid using the default port 22 for SSH because it often experiences numerous malicious login attempts. When changing the port, ensure it doesn't conflict with other applications by referring to the list of [registered ports](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports). After configuring SSH, you can skip the next section and proceed to [SSH into NixOS](#SSH into NixOS).
+The additional settings configure the host name to 'tp-node1', enable SSH, change the SSH port to 43567, disable password authentication, and set a public key for the root user. This configuration allows us to log in as root using an SSH key. It's a recommended practice to avoid using the default port 22 for SSH because it often experiences numerous malicious login attempts. When changing the port, ensure it doesn't conflict with other applications by referring to the list of [registered ports](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports). After configuring SSH, you can skip the next section and proceed to [SSH into NixOS](#ssh-into-nixos).
 
 ### Create manually a configuration.nix
 Since the generated `configuration.nix` file is quite elaborate and a lot of settings are placed in comment I like to start from a clean sheet and write my own `configuration.nix` file. To create a custom configuration.nix file, begin by powering on the node and then follow the steps outlined in [Accessing nodes' filesystems](https://docs.turingpi.com/docs/tpi-accessing-nodes-filesystems). Mount `/dev/sda2` instead of `/dev/sda1`, and consider using a mounting point like `/mnt/nixos` for clarity. Once mounted, you can create the `configuration.nix` file as follows:
@@ -113,7 +113,7 @@ The minimal configuration that we will use is derived from [this](https://nix.de
 
 ```
 
-### SSH into NixOS<a name="SSH into NixOS"></a>
+### SSH into NixOS
 After saving your changes to the `configuration.nix` file, ensure that you unmount the filesystem and reboot the node. Then, you can perform a `nixos-rebuild switch`.
 ```console
 # tpi uart -n 1 set --cmd "sudo nixos-rebuild switch"
