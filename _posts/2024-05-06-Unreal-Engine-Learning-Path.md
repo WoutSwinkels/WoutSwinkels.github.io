@@ -56,3 +56,13 @@ Additionally, you also receive a [certificate](https://udemy-certificate.s3.amaz
 
 Unreal Engine: 5.3.2\\
 Completed: May 02, 2024
+
+### Balancing Blueprints and C++
+This course can be found on [Epic Games's Dev Community](https://dev.epicgames.com/community/learning/courses/NGA/unreal-engine-balancing-blueprints-and-c/e9xq/unreal-engine-balancing-blueprints-and-c-overview), is free of charge, takes around 30 minutes to read, and is written by the Epic Online Learning team together with the UE Gameplay Systems team. Up until this point, I had only spent time in Blueprints and wanted to know when to use C++ instead of Blueprints. The key takeaways for me are:
+
+- Cater to the skills of your team. Designer/artist-heavy teams will use Blueprints more. Programmer-heavy teams will use C++ more.
+- Offload networking, heavy mathematical computations, persistent, consistently running functions, and utilities to C++. Since Blueprint code runs on a virtual machine layer to talk to C++ code and therefore introduces additional overhead, which can add up when you have too many Blueprints that are consistently active.
+- Expose the functionality that the designers and artists need from C++ code while keeping the underlying code shielded. The programmer implements the logic (e.g., fire rifle, target hit, etc.) and exposes the variables, functions, events, etc., needed for the designers and artists to interact with this logic (e.g., amount of ammo, magazine size, reload time, etc.).
+
+Unreal Engine: 5.4.1\\
+Completed: May 08, 2024
