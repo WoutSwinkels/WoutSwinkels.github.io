@@ -66,3 +66,13 @@ This course can be found on [Epic Games's Dev Community](https://dev.epicgames.c
 
 Unreal Engine: 5.4.1\\
 Completed: May 08, 2024
+
+### Unreal Engine C++ Workshop
+This workshop can be found on [Epic Games's Dev Community](https://dev.epicgames.com/community/learning/tutorials/5w4b/unreal-engine-c-workshop), is free of charge, takes around 5 hours, and was delivered at Technically Games 2022. The course encompasses 11 videos. The first 3 videos cover foundational C++. If you are a C++ programmer, you can skip these videos. Although I have an elaborate background in C++ programming, I still watched the videos and found them to be a nice refresher. It is stated that this course is also for programmers with no previous C++ experience, but I think this is a bit optimistic. The three videos explaining some C++ concepts, despite being explained very well, are likely to be confusing.
+
+I had hoped that it would be a hands-on workshop, but it is not. By that, I mean that the instructor explains the concepts, writes and uses example code, but as a participant, you are not really coding. Perhaps this was the case if you attended the workshop at Technically Games 2022, but for the online version, it was not the case.
+
+Finally, I personally found that the last three videos went a little over my head. Not due to the concepts, but the actual implementation in C++. I think this is primarily because I don't have a grasp of the Unreal Engine specific classes that exist at the moment.
+
+Unreal Engine: 5.4.1\\
+Completed: May 10, 2024
