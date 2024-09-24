@@ -9,6 +9,7 @@ tags: [NixOS, Jekyll, Blogging]
 ## Setup
 * PC: Lenovo T590
 * OS: NixOS 24.05
+* Jekyll theme: [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
 
 ## Summary
 Run Jekyll locally on NixOS.
@@ -130,14 +131,15 @@ As mentioned in the previous section, we will use `bundix`. To do this, I follow
 
 ## Resources
 
-1.  Setup github pages + jekyll with a nix shell [[link](https://discourse.nixos.org/t/setup-github-pages-jekyll-with-a-nix-shell/42323)]
-2.  NixOS wiki: Packaging/Binaries [[link](https://nixos.wiki/wiki/Packaging/Binaries)]
-3.  Bundix GitHub repository [[link](https://github.com/nix-community/bundix)]
-4.  Jekyll's NixOS 23.11 Gemfile.lock [[link](https://github.com/NixOS/nixpkgs/blob/nixpkgs-23.11-darwin/pkgs/applications/misc/jekyll/basic/Gemfile.lock)]
-5.  SassC GitHub repository [[link](https://github.com/sass/sassc/)]
-6.  LibSass is Deprecated [[link](https://sass-lang.com/blog/libsass-is-deprecated/)]
-7.  Jekyll's NixOS 24.05 package [[link](https://github.com/NixOS/nixpkgs/blob/nixpkgs-24.05-darwin/pkgs/applications/misc/jekyll/basic/Gemfile.lock)]
-8.  Jekyll Sass Converter documentation [[link](https://jekyll-themes.com/jekyll/jekyll-sass-converter)]
-9.  npm sass-embedded documentation [[link](https://www.npmjs.com/package/sass-embedded)]
-10. Jekyll in NixOS [[link](https://matthewrhone.dev/jekyll-in-nixos)]
-11. Bundix GitHub issue #88 [[link](https://github.com/nix-community/bundix/issues/88)]
+1.  Chirpy Jekyll theme GitHub repository [[link](https://github.com/cotes2020/jekyll-theme-chirpy)]
+2.  Setup github pages + jekyll with a nix shell [[link](https://discourse.nixos.org/t/setup-github-pages-jekyll-with-a-nix-shell/42323)]
+3.  NixOS wiki: Packaging/Binaries [[link](https://nixos.wiki/wiki/Packaging/Binaries)]
+4.  Bundix GitHub repository [[link](https://github.com/nix-community/bundix)]
+5.  Jekyll's NixOS 23.11 Gemfile.lock [[link](https://github.com/NixOS/nixpkgs/blob/nixpkgs-23.11-darwin/pkgs/applications/misc/jekyll/basic/Gemfile.lock)]
+6.  SassC GitHub repository [[link](https://github.com/sass/sassc/)]
+7.  LibSass is Deprecated [[link](https://sass-lang.com/blog/libsass-is-deprecated/)]
+8.  Jekyll's NixOS 24.05 package [[link](https://github.com/NixOS/nixpkgs/blob/nixpkgs-24.05-darwin/pkgs/applications/misc/jekyll/basic/Gemfile.lock)]
+9.  Jekyll Sass Converter documentation [[link](https://jekyll-themes.com/jekyll/jekyll-sass-converter)]
+10. npm sass-embedded documentation [[link](https://www.npmjs.com/package/sass-embedded)]
+11. Jekyll in NixOS [[link](https://matthewrhone.dev/jekyll-in-nixos)]
+12. Bundix GitHub issue #88 [[link](https://github.com/nix-community/bundix/issues/88)]
